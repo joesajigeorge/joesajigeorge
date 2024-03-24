@@ -1,8 +1,10 @@
-Hello ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Joe Saji George
+Hello ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif), My name is Joe Saji George
 =======================================================================================================================================
 
 DevOps Engineer
 ---------------
+
+<img src="https://komarev.com/ghpvc/?username=joesajigeorge&style=flat-square&color=blue" alt=""/>
 
 * 🌍  I'm based in Thiruvananthapuram
 * ✉️  You can contact me at [sajigeorge.joe@gmail.com](mailto:sajigeorge.joe@gmail.com)
