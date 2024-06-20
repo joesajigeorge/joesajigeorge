@@ -6,9 +6,9 @@ DevOps Engineer
 
 <img src="https://komarev.com/ghpvc/?username=joesajigeorge&style=flat-square&color=blue" alt=""/>
 
-* 🌍  I'm based in Thiruvananthapuram
+* 🌍  I'm based in Australia
 * ✉️  You can contact me at [sajigeorge.joe@gmail.com](mailto:sajigeorge.joe@gmail.com)
-* 🧠  I'm learning Az 104 - Microsoft Azure Administrator
+* 🧠  I'm learning Az 104 - Microsoft Azure Administrator and Certififed Kubernetes Administrator
 
 ### Skills
 
