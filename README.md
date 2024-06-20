@@ -13,7 +13,9 @@ DevOps Engineer
 ### Skills
 
 <p align="center">
-[![My Skills](https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,jenkins,git,githubactions,gitlab,docker,ansible,grafana,py,nodejs,bash,linux,powershell,mongodb&perline=5)](https://skillicons.dev)
+    <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,jenkins,git,githubactions,gitlab,docker,ansible,grafana,py,nodejs,bash,linux,powershell,mongodb" />
+  </a>
 </p>
 
 
