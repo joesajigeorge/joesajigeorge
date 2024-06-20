@@ -12,7 +12,9 @@ DevOps Engineer
 
 ### Skills
 
-[![My Skills](https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,jenkins,git,githubactions,gitlab,docker,ansible,grafana,py,nodejs,bash,linux,powershell,mongodb&perline=4)](https://skillicons.dev)
+<p align="center">
+[![My Skills](https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,jenkins,git,githubactions,gitlab,docker,ansible,grafana,py,nodejs,bash,linux,powershell,mongodb&perline=5)](https://skillicons.dev)
+</p>
 
 
 ### Socials
