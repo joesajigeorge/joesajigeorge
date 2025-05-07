@@ -51,12 +51,6 @@ I'm a DevOps Engineer with over **6 years of experience** building scalable, sec
 
 ---
 
-## 📈 GitHub Stats
-
-![Joe's GitHub stats](https://github-readme-stats.vercel.app/api?username=joesajigeorge&show_icons=true&theme=radical)
-
----
-
 ## 🧪 Projects Involved In
 
 - **Cloud Migration for UK Telecom Client** – Re-architected apps on AWS, cut costs by 30%.
