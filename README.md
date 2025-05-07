@@ -86,3 +86,5 @@ Computer Science & Engineering – Saintgits College of Engineering, India
 ---
 
 > *"Infinity has no beginning, no beginning has no end."*
+
+<img src="https://komarev.com/ghpvc/?username=joesajigeorge&style=flat-square&color=blue" alt=""/>
