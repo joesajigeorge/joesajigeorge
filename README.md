@@ -36,3 +36,25 @@ DevOps Engineer
 <b>Top Repositories</b>
 
 <div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
+
+# 👋 Hi, I'm Joe Saji George
+
+🌍 I'm based in Sydney, Australia  
+💻 I’m a contractor at Optus, working in cloud & infrastructure engineering  
+🎯 Currently aiming for AWS DevOps Pro Certification  
+🧠 I’m learning: Terraform, Kubernetes, DevSecOps  
+🎵 I love music, anime, and beach adventures
+
+## 🔧 Technologies I Use
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+## 📊 GitHub Stats
+
+![Joe's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+## 📫 Connect with me
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
+
