@@ -1,0 +1,75 @@
+name: Update Experience
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Calculate experience (years + months) and update README
+        run: |
+          # Your start date
+          START_DATE="2018-06-18"
+
+          # Current date
+          TODAY=$(date +%Y-%m-%d)
+
+          # Extract year, month, day
+          START_YEAR=$(date -d "$START_DATE" +%Y)
+          START_MONTH=$(date -d "$START_DATE" +%m)
+          START_DAY=$(date -d "$START_DATE" +%d)
+
+          CUR_YEAR=$(date +%Y)
+          CUR_MONTH=$(date +%m)
+          CUR_DAY=$(date +%d)
+
+          # Calculate years and months difference
+          YEARS=$((CUR_YEAR - START_YEAR))
+          MONTHS=$((CUR_MONTH - START_MONTH))
+
+          if [ $MONTHS -lt 0 ]; then
+            YEARS=$((YEARS - 1))
+            MONTHS=$((MONTHS + 12))
+          fi
+
+          # Adjust if current day not yet reached
+          if [ $CUR_DAY -lt $START_DAY ]; then
+            if [ $MONTHS -eq 0 ]; then
+              YEARS=$((YEARS - 1))
+              MONTHS=11
+            else
+              MONTHS=$((MONTHS - 1))
+            fi
+          fi
+
+          # Format experience
+          if [ $MONTHS -eq 0 ]; then
+            EXPERIENCE="$YEARS years"
+          else
+            EXPERIENCE="$YEARS years $MONTHS months"
+          fi
+
+          echo "Updating experience to $EXPERIENCE"
+
+          # Update README placeholder
+          sed -i "s/<!-- EXPERIENCE -->/$EXPERIENCE/" README.md
+
+          # Configure git locally
+          git config user.name "Experience Updater Bot"
+          git config user.email "experience-bot@users.noreply.github.com"
+
+          # Commit and push only if README changed
+          if ! git diff --exit-code README.md; then
+            git add README.md
+            git commit -m "Update experience to $EXPERIENCE"
+            git push
+          else
+            echo "No changes to commit"
+          fi
