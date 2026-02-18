@@ -2,7 +2,7 @@
 
 🚀 **DevOps Engineer | Cloud Enthusiast | Automation Advocate**
 
-I'm a DevOps Engineer with over **<!-- EXPERIENCE -->** of experience building scalable, secure, and automated infrastructures. I specialize in designing and implementing **CI/CD pipelines**, **cloud-native solutions**, and **infrastructure as code (IaC)** to drive continuous improvement and reliable deployments.
+I'm a DevOps Engineer with over **7 years 8 months** of experience building scalable, secure, and automated infrastructures. I specialize in designing and implementing **CI/CD pipelines**, **cloud-native solutions**, and **infrastructure as code (IaC)** to drive continuous improvement and reliable deployments.
 
 ---
 
